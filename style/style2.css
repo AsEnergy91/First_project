@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fefbfb;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.container {
+    padding: 10px 50px;
+    position: relative;
+
+    width: 50%;
+}
+
+.text-box {
+    padding: 20px 30px;
+    background-color: #1f0d0d;
+    position: relative;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.left-container {
+    left: 0;
+}
+.right-container {
+    left: 50%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background:#fff ;
+    top: 0;
+    left: 50%;
+    margin-left: -4px;
+    z-index: -1;
+}
+
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px; 
+    z-index: 10;
+
+}
+.right-container img{
+    left: -20px;
+}
+
+.header {
+    background-image: url(../image/374709.jpg);
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    width: 100%;
+    margin: 0;
+    gap:0px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: Chinese Rocks, sans-serif;
+    font-size: 40px;
+    color: #fefbfb;
+    background-size: contain;
+    top:0%;
+    left:0%;
+    }
+
+    .pp {
+    margin-left: -1100px;
+}
+
+.liens1 {
+   background-color: #fefbfb;
+   z-index: 10;
+   position:absolute;
+    top: 50px;
+    right: 800px;
+    color: #EE0000;
+    background-color: black;
+    font-family: Chinese Rocks, sans-serif;
+    font-size: 180%;
+
+}
+.liens2 {
+   background-color: #fefbfb;
+   z-index: 10;
+   position:absolute;
+    top: 50px;
+    right: 600px;
+    color: #EE0000;
+    background-color: black;
+    font-family: Chinese Rocks, sans-serif;
+    font-size: 180%;
+
+}
+.liens3 {
+   background-color: #fefbfb;
+   z-index: 10;
+   position:absolute;
+    top: 50px;
+    right: 280px;
+    color: #EE0000;
+    background-color: black;
+    font-family: Chinese Rocks, sans-serif;
+    font-size: 180%;
+}

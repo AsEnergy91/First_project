@@ -75,27 +75,67 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 40% 1fr;
+    grid-template-rows: 0.5fr 40% 1fr;
     grid-auto-flow: row;
-    gap: 150px 50px;
-    justify-content: center;
-    place-items: center;
+    gap: px 50px;
+
     
 }
 
 .card1 {
-    justify-items: auto;
+     display: grid;
+  place-items: end center;
+
     
 }
 
-.card4 {
-    margin-left:2rem;
+.card2 {
+  display: grid;
+  place-items: end center;
 
 }
 
+.card3 {
+
+  display: grid;
+  place-items: end center;
+}
+.card4 {
+    justify-content: center;
+    place-items: center;
+      margin-right: 10%;
+     margin-left: 10%;
+}
+
+.card5 {
+    display:grid;
+    justify-content: center;
+    place-items: center;
+    object-fit: cover;
+
+
+
+
+}
+
+.card6{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-column: 3 / 4;
+     grid-row: 2 / 4;
+     padding-top: 50%;
+     object-fit: cover;
+     overflow: hidden;
+     margin-right: 10%;
+     margin-left: 10%;
+
+}
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .red {

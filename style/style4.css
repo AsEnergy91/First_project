@@ -78,45 +78,4 @@ body {
     color: #fefbfb;  
 
 }
-
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  height: calc(100vh - 120px);
-      background-color: #000000;
-      text-align: center;
-      font-size: 20px;
-
-}
-    
-.div1 {
-    grid-column: 1;
-    padding: 40px;
-    align-items: stretch;
-
-}
-
-.div2 {
-    grid-column: 1;
-    padding: 40px;
-    text-align: center;
-}
-
-.div3 {
-    grid-column: 2;
-    overflow: hidden;
-}
-
-#morgane { 
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
- 
-
-    }
-
-.red {
-    color:#EE0000;
-    background-color: black;
-}
+   

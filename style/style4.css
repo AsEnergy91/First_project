@@ -76,6 +76,21 @@ body {
     background-color: #000000;
     font-family: 'Chinese Rocks', sans-serif;
     color: #fefbfb;  
+    font-size: 30px;
 
 }
-   
+
+ul{
+  list-style-type: none;
+}
+li::before{
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  top: 0.2rem;
+  margin-right: 0.4rem;
+  content: "";
+  background-image: url(../image/Design_sans_titre.png);
+  background-size: contain;
+}

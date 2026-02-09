@@ -65,48 +65,59 @@ body {
 /* .header {
     background-image: url(../image/374709.jpg);
     display: flex;
+    float: left;
     flex-direction: column;
-    height:200px;
-    width: 100%;
-    margin: 0;
-    gap:0px;
-    padding: 10px;
-    align-items: center;
     justify-content: center;
-    font-family: Chinese Rocks, sans-serif;
+   
+}
+
+.logo_container h1{
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fefbfb;  
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 80px;
+    margin-left: 10%;
+    white-space: nowrap;
+
+}
+.logo_container p{
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fefbfb;  
+    display: table-cell;
+    vertical-align: middle;
     font-size: 40px;
+    margin-left: 15%;
+    white-space: nowrap;
+}
+
+.navigation {
+    float : right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    font-family: 'Chinese Rocks', sans-serif;
     color: #fefbfb;
-    background-size: contain;
-    top:0%;
-    left:0%;
-    }
-
-    .pp {
-    margin-left: -1100px;
+    float: left;
+    padding: 0px 20px;
 }
 
-.liens1 {
-   background-color: #fefbfb;
-   z-index: 10;
-   position:absolute;
-    top: 50px;
-    right: 800px;
-    color: #EE0000;
-    background-color: black;
-    font-family: Chinese Rocks, sans-serif;
-    font-size: 180%;
+.navigation li{
+display: table-cell;
+vertical-align: middle;
+height: 100%;
+font-size: 30px;
 
 }
-.liens2 {
-   background-color: #fefbfb;
-   z-index: 10;
-   position:absolute;
-    top: 50px;
-    right: 600px;
-    color: #EE0000;
-    background-color: black;
-    font-family: Chinese Rocks, sans-serif;
-    font-size: 180%;
+
+
+body {
+    background-color: #000000;
+    font-family: 'Chinese Rocks', sans-serif;
+    color: #fefbfb;  
 
 }
 .liens3 {
